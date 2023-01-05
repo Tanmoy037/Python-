@@ -1,5 +1,5 @@
 # Python-
 It's all about my python learning journey> 
 
-Stack = LIFO
+Stack = LIFO,
 Queue = FIFO
