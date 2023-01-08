@@ -170,13 +170,13 @@ print (i-1,findElement(var, len(var)))
 class Node:
     def _init_(self,data):
         self.data = data
-        self.head = none
+        self.head = None
 
-class linkedList:
+class LinkedList:
     def __init__(self):
         self.head = None
 
-    def travers(self):
+    def traverse(self):
         current = self.head
 
         while current is not None:
@@ -190,11 +190,11 @@ if __name__ == "_main_":
     n3 = Node(3)
 
    
-    link_list = LinkList()
+    linked_list = LinkedList()
     linked_list.head = n1
     linked_list.head.nextval = n2
     n2.nextval = n3
-    n3.nextval = none
+    n3.nextval = None
 
 
     linked_list.traverse()    
