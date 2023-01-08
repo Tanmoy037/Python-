@@ -1,5 +1,5 @@
 class Node:
-    def _init_(self,data):
+    def __init__(self,data):
         self.data = data
         self.head = None
 
@@ -15,7 +15,7 @@ class LinkedList:
             current = current.nextval
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     n1 = Node(1)
     n2 = Node(2)
     n3 = Node(3)
@@ -28,4 +28,4 @@ if __name__ == "_main_":
     n3.nextval = None
 
 
-    linked_list.traverse()   
+    linked_list.traverse()
