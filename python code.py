@@ -168,7 +168,7 @@ def findElement(arr, n):
 print (i-1,findElement(var, len(var)))
 """
 class Node:
-    def _init_(self,data):
+    def __init__(self,data):
         self.data = data
         self.head = None
 
@@ -184,7 +184,7 @@ class LinkedList:
             current = current.nextval
 
 
-if __name__ == "_main_":
+if __name__ == "__main__":
     n1 = Node(1)
     n2 = Node(2)
     n3 = Node(3)
